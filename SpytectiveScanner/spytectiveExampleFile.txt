@@ -1,0 +1,12 @@
+->> Case File #001: Deep Cover Investigation
+
+motive crime_scene() {
+    fine clue = 9 ->>
+
+    investigate (clue > 7) {
+        report "Prime suspect detected!" ->>
+    }
+    fallback {
+        report "No leads found. Keep investigating." ->>
+    }
+}
