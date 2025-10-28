@@ -53,7 +53,7 @@ int main() {
     string line;
     int lineNumber = 0;
 
-    cout << "=== Spytective Lexical Scanner ===\n\n";
+    cout << "->> Spytective Lexical Scanner <<-\n\n";
 
     while (getline(file, line)) {
         lineNumber++;
